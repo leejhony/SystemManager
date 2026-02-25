@@ -1,48 +1,65 @@
-# SystemManager
+# Gerenciador de Sistemas
 
-This template should help get you started developing with Vue 3 in Vite.
+Sistema web desenvolvido para gerenciamento de produção, ordens de serviço, fechamento mensal e controle operacional.
 
-## Recommended IDE Setup
+## Objetivo
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Este sistema tem como objetivo centralizar e facilitar o gerenciamento de processos produtivos, oferecendo controle eficiente de ordens, histórico mensal e acompanhamento das operações.
 
-## Recommended Browser Setup
+## Tecnologias utilizadas
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+* Vue 3
+* TypeScript
+* Vite
+* Vue Router
+* HTML5
+* CSS3
 
-## Type Support for `.vue` Imports in TS
+## Funcionalidades
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+* Login de usuário
+* Dashboard com visão geral
+* Gerenciamento de ordens
+* Fechamento mensal
+* Histórico mensal
+* Estrutura baseada em layouts reutilizáveis
 
-## Customize configuration
+## Estrutura do projeto
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+```
+src/
+ ├ layouts/
+ ├ views/
+ ├ components/
+ ├ router/
+ ├ App.vue
+ └ main.ts
+```
 
-## Project Setup
+## Como executar o projeto
 
-```sh
+### Instalar dependências
+
+```
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Executar em ambiente de desenvolvimento
 
-```sh
+```
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Gerar build para produção
 
-```sh
+```
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## Status do projeto
 
-```sh
-npm run lint
-```
+Em desenvolvimento
+
+## Autor
+
+Jhony David Correa Lee Ribeiro
